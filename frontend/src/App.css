@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#message-container {
+  height: 50vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#form input[type="text"],
+#form button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+#form label {
+  font-weight: bold;
+}
+
+#form button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#form button:hover {
+  background-color: #0056b3;
+}
+
+#form button[type="submit"] {
+  background-color: #28a745;
+}
+
+#form button[type="submit"]:hover {
+  background-color: #218838;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#message-input,
+#room-input {
+  margin-right: 10px;
+  width: 80vw;
+}
